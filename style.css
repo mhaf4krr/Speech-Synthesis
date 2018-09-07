@@ -14,6 +14,10 @@ body {
     border-radius: 30px;
 }
 
+#container:hover{
+transform : scale(1.02);
+}
+
 #text-item {
     margin-top: 40px;
     margin-right:60px; 
@@ -31,5 +35,14 @@ body {
 }
 
 #mic-img:hover{
-    transform: scale(1.2)k
+    transform: scale(1.2);
+}
+
+#commands {
+    color: white;
+}
+
+#commands li{
+    margin-top:10px;
+    padding-top: 20px;
 }

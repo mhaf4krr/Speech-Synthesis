@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div id='container'>
-        <input type="text" name="" id="text-item" max="100">
+        <input type="text" name="" id="text-item" max="100" placeholder="type in a command">
         <img src="mic.svg"  alt="" height="40px" width="40px" srcset="" id="mic-img">
     </div>
     
     <div id='show-status'>
-        <img src="voice.gif" height="300px;" id='waves' alt="">
+        <img src="" height="300px;" id='waves' alt="">
+    </div>
+
+    <div id='commands'>
+        <h2>Supported Commands</h2>
+        <br><br>
+        <ul>
+            <li>joke    ->   gets a random joke </li>
+            <li>weather   ->   grabs current weather information </li>
+        </ul>
     </div>
     <script src="app.js"></script>
 </body>
